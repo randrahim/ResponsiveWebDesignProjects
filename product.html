@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="logo"
+      />
+      <nav id="nav-bar">
+        <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <div>
+      <h2>Handcrafted, home-made masterpieces</h2>      
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <input
+                 name="email"
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+          /><br />
+          <input id="submit" type="submit" value="Get Started"/>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon">
+            <img
+              src="https://img-premium.flaticon.com/png/512/5697/premium/5697473.png?token=exp=1633637832~hmac=77e1f9df6fe9631698b2242db6230159"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <img
+              src="https://img-premium.flaticon.com/png/512/5697/premium/5697368.png?token=exp=1633639871~hmac=a65e69e5354a04d13e9a421ac9f0f8f1"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <img
+              src="https://img-premium.flaticon.com/png/512/5697/premium/5697483.png?token=exp=1633639871~hmac=d2e5194cdedcb23f82585176f8429d4e"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="how-it-works">
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen=""
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass"></div>
+      <div class="product" id="valve"></div>
+    </section>
+  </body>
+</html>
